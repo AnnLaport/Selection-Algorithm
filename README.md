@@ -5,6 +5,7 @@ Instrucciones:
   - Ejecutar el programa usando el comando "py selection_algorithm.py"
   - Se solicitan el par de coordenadas de la oficina (latitud, longitud) en ese orden.
   - Se ingresan las coordenadas y se generara el json "selectedClients.json" con los 10 clientes seleccionados
+  + Nota: "generate_data.py", se utiliza para generar los datos de prueba (taxpayers.json)
 
 Explicación: 
 
