@@ -20,6 +20,8 @@
 import json
 import math
 
+
+#La información para probar el programa se obtiene de 'taxpayers.json'
 with open('taxpayers.json') as clientsdata:
     client= json.load(clientsdata)
 
@@ -42,7 +44,7 @@ with open('taxpayers.json') as clientsdata:
     majorAO=0;
     majorRO=0;
     percentages=[];
-    clients_number=1000;
+    clients_number=len(client);
     for i in range(clients_number):
         #Calcular cual es el mayor valor en cuanto a edad
         if(client[i]['age']>MajorAge):
